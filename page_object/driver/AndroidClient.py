@@ -29,10 +29,10 @@ class AndroidClient:
         caps['deviceName'] = 'oneplus'
         caps['appPackage'] = 'com.xueqiu.android'
         caps['appActivity'] = '.view.WelcomeActivityAlias'
-        caps['unicodeKeyboard'] = True
-        caps['resetKeyboard'] = True
+        caps['unicodeKeyboard'] = 'True'
+        caps['resetKeyboard'] = 'True'
 
-        caps['noReset'] = True
+        caps['noReset'] = 'True'
 
         cls.driver = webdriver.Remote('http://localhost:4723/wd/hub', caps)
         cls.driver.implicitly_wait(10)

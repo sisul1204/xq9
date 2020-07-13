@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f0d27a07-0892-4304-a124-7daac55d5ad4" name="Default Changelist" comment="" />
+    <list default="true" id="f0d27a07-0892-4304-a124-7daac55d5ad4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/page_object/pages/LoginPage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page_object/pages/ProfilePage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page_object/testcases/test_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/appiumtest9.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/appiumtest9.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_object/driver/AndroidClient.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_object/driver/AndroidClient.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_object/pages/MainPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_object/pages/MainPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_object/pages/SearchPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_object/pages/SearchPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_object/testcases/test_selected.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_object/testcases/test_selected.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +27,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/appium_online_9" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -33,7 +45,8 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -43,8 +56,8 @@
       </console-settings>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_selected.TestSelected.test_add_stock">
-    <configuration name="pytest for test_selected.TestSelected" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.pytest for test_login.TestLogin.test_login_password">
+    <configuration name="pytest for test_login.TestLogin.test_login_password" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="appiumtest9" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -53,10 +66,9 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_selected.TestSelected&quot;" />
+      <option name="_new_target" value="&quot;test_login.TestLogin.test_login_password&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -76,7 +88,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_selected.TestSelected.test_price" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_selected.TestSelected.test_is_add_stock_hs" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="appiumtest9" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -85,52 +97,49 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_selected.TestSelected.test_price&quot;" />
+      <option name="_new_target" value="&quot;test_selected.TestSelected.test_is_add_stock_hs&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_xueqiu.TestXueqiuAndroid" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_selected.TestSelected.test_is_selected_stock" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="appiumtest9" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/page_object/testcases" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_xueqiu.TestXueqiuAndroid&quot;" />
+      <option name="_new_target" value="&quot;test_selected.TestSelected.test_is_selected_stock&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_xueqiu_login.TestXueqiuAndroidLogin" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_selected.TestSelected.test_is_selected_stock_hs" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="appiumtest9" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/appium_online_9" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/page_object/testcases" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_xueqiu_login.TestXueqiuAndroidLogin&quot;" />
+      <option name="_new_target" value="&quot;test_selected.TestSelected.test_is_selected_stock_hs&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_login.TestLogin.test_login_password" />
+        <item itemvalue="Python tests.pytest for test_selected.TestSelected.test_is_add_stock_hs" />
+        <item itemvalue="Python tests.pytest for test_selected.TestSelected.test_is_selected_stock_hs" />
+        <item itemvalue="Python tests.pytest for test_selected.TestSelected.test_is_selected_stock" />
         <item itemvalue="Python tests.pytest for test_selected.TestSelected.test_add_stock" />
-        <item itemvalue="Python tests.pytest for test_selected.TestSelected" />
-        <item itemvalue="Python tests.pytest for test_selected.TestSelected.test_price" />
-        <item itemvalue="Python tests.pytest for test_xueqiu_login.TestXueqiuAndroidLogin" />
-        <item itemvalue="Python tests.pytest for test_xueqiu.TestXueqiuAndroid" />
       </list>
     </recent_temporary>
   </component>
@@ -156,41 +165,55 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1594552139659">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1594602790464">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594602790464" />
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1594642811135">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594642811135" />
     <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594552139659" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1594552139658">
+    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1594642811135">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594642811135" />
     <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594552139658" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1594552139658">
+    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1594642811135">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594642811135" />
     <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594552139658" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1594552139659">
+    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1594642811135">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594642811135" />
     <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594552139659" />
-    <state x="461" y="161" key="SettingsEditor" timestamp="1594512606591">
+    <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1594639634245">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1899" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594639634245" />
+    <state width="1899" height="348" key="GridCell.Tab.1.center" timestamp="1594639634245">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594639634245" />
+    <state width="1899" height="348" key="GridCell.Tab.1.left" timestamp="1594639634245">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594639634245" />
+    <state width="1899" height="348" key="GridCell.Tab.1.right" timestamp="1594639634245">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594639634245" />
+    <state x="461" y="161" key="SettingsEditor" timestamp="1594601012476">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="161" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594601012476" />
     <state x="461" y="161" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1594512606591" />
-    <state x="640" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1594557673142">
+    <state x="640" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1594602778488">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="640" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594602778488" />
     <state x="640" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594557673142" />
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/appiumtest9$pytest_for_test_xueqiu_login_TestXueqiuAndroidLogin.coverage" NAME="pytest for test_xueqiu_login.TestXueqiuAndroidLogin Coverage Results" MODIFIED="1594476494324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/appium_online_9" />
-    <SUITE FILE_PATH="coverage/appiumtest9$pytest_for_test_selected_TestSelected_test_add_stock.coverage" NAME="pytest for test_selected.TestSelected.test_add_stock Coverage Results" MODIFIED="1594541518833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/page_object/testcases" />
-    <SUITE FILE_PATH="coverage/appiumtest9$demo.coverage" NAME="demo Coverage Results" MODIFIED="1594425202461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/appium_online_9" />
-    <SUITE FILE_PATH="coverage/appiumtest9$pytest_for_test_xueqiu_TestXueqiuAndroid_test_login.coverage" NAME="pytest for test_xueqiu.TestXueqiuAndroid.test_login Coverage Results" MODIFIED="1594431006483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/appiumtest9$pytest_in_test_xueqiu_py.coverage" NAME="pytest in test_xueqiu.py Coverage Results" MODIFIED="1594430673487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/appiumtest9$pytest_for_test_selected_TestSelected.coverage" NAME="pytest for test_selected.TestSelected Coverage Results" MODIFIED="1594523924220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/page_object/testcases" />
-    <SUITE FILE_PATH="coverage/appiumtest9$homework.coverage" NAME="homework Coverage Results" MODIFIED="1594427211709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/appiumtest9$pytest_for_test_xueqiu_TestXueqiuAndroid.coverage" NAME="pytest for test_xueqiu.TestXueqiuAndroid Coverage Results" MODIFIED="1594473257634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/appiumtest9$pytest_for_test_selected_TestSelected_test_price.coverage" NAME="pytest for test_selected.TestSelected.test_price Coverage Results" MODIFIED="1594512983390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/page_object/testcases" />
-    <SUITE FILE_PATH="coverage/appiumtest9$pytest_in_test_xueqiu_py__1_.coverage" NAME="pytest in test_xueqiu.py (1) Coverage Results" MODIFIED="1594431242806" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/appium_online_9" />
   </component>
 </project>
